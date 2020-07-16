@@ -1,0 +1,15 @@
+digraph G {
+
+node[shape=box];
+
+		//generar lista simple
+
+RR0[label="Dato: 15",color="burlywood"];
+RR1[label="Dato: 20",color="burlywood"];
+RR2[label="Dato: 8",color="burlywood"];
+RR3[label="Dato: 19",color="burlywood"];
+RR4[label="Dato: 31",color="burlywood"];
+RR5[label="Dato: 32",color="burlywood"];
+{rank=same; RR0->RR1->RR2->RR3->RR4->RR5->RR0;};
+RR5->RR4->RR3->RR2->RR1->RR0->RR5
+}
