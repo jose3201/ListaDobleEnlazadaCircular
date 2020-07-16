@@ -1,2 +1,2 @@
 # ListaDobleEnlazada
-lista doble enlazada en java
+lista doble enlazada circular  en java
